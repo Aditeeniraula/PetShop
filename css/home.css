@@ -1,0 +1,32 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url("dogs.jpg");
+  background-size: 70%;
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: #c98314;
+  padding: 100px 0;
+  background-size: 60%;
+  margin-left: 15px;
+}
+
+.banner h1 {
+  font-size: 34px;
+}
+
+.banner p {
+  font-size: 18px;
+}

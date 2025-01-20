@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/foot.css" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="lab.html">Services</a></li>
+          <li><a href="toys.html">Toys</a></li>
+          <li><a href="food.html">Foods</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contact" style="display: flex; margin-top: 30px">
+      <div class="contact-img" style="width: 50%">
+        <div class="contact-details" style="margin-top: 65px">
+          <div class="opening" style="display: flex">
+            <img
+              src="../img/opening.png"
+              alt="time"
+              width="60px"
+              height="60px"
+              style="margin-top: 20px"
+            />
+            <div class="txt" style="padding-left: 15px">
+              <h4>Opening Hours</h4>
+              <p>Weekdays: 11:00am - 6:00pm</p>
+              <p>Weekends: 8:00am - 8:00pm</p>
+            </div>
+          </div>
+          <div class="opening" style="display: flex">
+            <img
+              src="../img/delivery.png"
+              alt="package"
+              width="60px"
+              height="60px"
+              style="margin-top: 20px"
+            />
+            <div class="txt" style="padding-left: 15px">
+              <h4>Delivary Time</h4>
+              <p>From 12PM TO 6PM</p>
+            </div>
+          </div>
+          <div class="opening" style="display: flex">
+            <img
+              src="../img/loc.png"
+              alt="location"
+              width="60px"
+              height="60px"
+              style="margin-top: 20px"
+            />
+            <div class="txt" style="padding-left: 15px">
+              <h4>Location</h4>
+              <p>New Road,Kathmandu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-box" style="width: 50%">
+        <div class="contact-info">
+          <input type="text" class="contact-txt" id="a" placeholder="Name" />
+          <input
+            type="text"
+            class="contact-txt"
+            id="a"
+            placeholder="Last Name"
+          />
+          <input type="text" class="contact-txt" id="b" placeholder="Address" />
+          <input type="email" class="contact-txt" id="a" placeholder="E-mail" />
+          <input
+            type="tel"
+            class="contact-txt"
+            id="a"
+            placeholder="Phone number"
+          />
+          <select class="contact-txt" id="b">
+            <option value="0" hidden>Service</option>
+            <option value="1">Food and toys</option>
+            <option value="2">Dog grooming(bath,hair and nail cut)</option>
+            <option value="3">Training</option>
+            <option value="4">Boarding</option>
+          </select>
+          <textarea
+            class="contact-txt"
+            rows="10"
+            cols="36"
+            placeholder="Message"
+            style="font-size: 18px"
+          ></textarea>
+          <input type="checkbox" class="check" />
+          <label for="checkbox"
+            >Keep me updated about pet shop through email.</label
+          >
+          <br />
+          <input type="submit" class="contact-btn" value="Send" />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <footer>
+      <p>&copy; 2023 DogCare. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

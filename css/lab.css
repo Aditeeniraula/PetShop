@@ -1,0 +1,176 @@
+/* Reset some default styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url("../img/dogs.jpg");
+  background-size: 70%;
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: #c98314;
+  padding: 100px 0;
+  background-size: 60%;
+  margin-left: 15px;
+}
+
+.banner h1 {
+  font-size: 34px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* Services section styles */
+.service {
+  padding: 40px;
+
+  display: flex;
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.service h3 {
+  margin-top: 20px;
+}
+
+.box {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.box-container {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.services p {
+  text-align: center;
+}
+
+#ek {
+  height: 220px;
+}
+.box-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px; /* Gap between boxes */
+  padding: 5px; /* Padding around the container */
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.box {
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  max-width: 25%;
+  min-width: 25%;
+  min-height: 150px;
+  position: relative;
+}
+.box-img {
+  width: 95%;
+  height: 80%;
+  margin-bottom: 7px;
+}
+.imgg {
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  margin-left: 40px;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .banner {
+    background-size: 50%;
+  }
+  .banner h1 {
+    font-size: 20px;
+  }
+
+  .banner p {
+    font-size: 13px;
+  }
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: rgb(188, 123, 134);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(107, 175, 202);
+}
+@media (min-width: 600px) and (max-width: 870px) {
+  .banner {
+    background-size: 50%;
+    margin-left: 30px;
+  }
+  .banner h1 {
+    font-size: 23px;
+  }
+
+  .banner p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 870px) and (max-width: 1130px) {
+  .banner {
+    background-size: 60%;
+    margin-left: 30px;
+  }
+  .banner h1 {
+    font-size: 25px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
